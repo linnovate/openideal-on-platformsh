@@ -7,3 +7,11 @@ Features:
 * MariaDB 10.4
 * Drush included
 * Composer-based build
+
+## Update repository:
+
+* Diff `composer.json` with https://github.com/linnovate/openideal/blob/3.x/composer.json
+* `COMPOSER_MEMORY_LIMIT=-1 composer require [diffed packages from above command]`
+* `COMPOSER_MEMORY_LIMIT=-1 composer update --with-dependencies`
+* Test
+* git commit and push
