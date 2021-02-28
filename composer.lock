@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6638a02a192b9df0add6212d2c4ff48d",
+    "content-hash": "2834c979535d27e976cb179b9b0da657",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2502,6 +2502,54 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/config_pages",
                 "issues": "http://drupal.org/project/issues/config_pages"
+            }
+        },
+        {
+            "name": "drupal/config_update",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/config_update.git",
+                "reference": "8.x-1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_update-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "8f079abf7c2ea826a27fa5224b0770a26404c968"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.7",
+                    "datestamp": "1586355587",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "jhodgdon",
+                    "homepage": "https://www.drupal.org/user/155601"
+                },
+                {
+                    "name": "nedjo",
+                    "homepage": "https://www.drupal.org/user/4481"
+                }
+            ],
+            "description": "Provides basic revert and update functionality for other modules",
+            "homepage": "https://www.drupal.org/project/config_update",
+            "support": {
+                "source": "https://git.drupalcode.org/project/config_update"
             }
         },
         {
@@ -5562,6 +5610,77 @@
             }
         },
         {
+            "name": "drupal/update_helper",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/update_helper.git",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/update_helper-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "1c442d26f316f59ae790d126b1148309468e8d78"
+            },
+            "require": {
+                "chi-teck/drupal-code-generator": "^1.32.0",
+                "drupal/config_update": "^1.5",
+                "drupal/core": "^8 || ^9",
+                "symfony/console": "~3.4.0 || ^4.4"
+            },
+            "require-dev": {
+                "drupal/checklistapi": "~1.0",
+                "drush/drush": "~10.2"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0",
+                    "datestamp": "1591777960",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Mladen Todorovic",
+                    "homepage": "https://www.drupal.org/user/157725",
+                    "email": "mladen.todorovic@burda.com"
+                },
+                {
+                    "name": "Christian Fritsch",
+                    "homepage": "https://www.drupal.org/user/2103716",
+                    "email": "christian.fritsch@burda.com"
+                },
+                {
+                    "name": "Daniel Bosen",
+                    "homepage": "https://www.drupal.org/user/404865",
+                    "email": "daniel.bosen@burda.com"
+                },
+                {
+                    "name": "Volker Killesreiter",
+                    "homepage": "https://www.drupal.org/user/3453049",
+                    "email": "killesreiter@burda.com"
+                },
+                {
+                    "name": "thunderbot",
+                    "homepage": "https://www.drupal.org/user/3511180"
+                }
+            ],
+            "description": "This module offers supporting functionalities to make configuration updates easier.",
+            "homepage": "https://www.drupal.org/project/update_helper",
+            "support": {
+                "source": "https://git.drupalcode.org/project/update_helper"
+            }
+        },
+        {
             "name": "drupal/user_registrationpassword",
             "version": "dev-1.x",
             "source": {
@@ -7272,16 +7391,16 @@
         },
         {
             "name": "linnovate/openideal",
-            "version": "3.0.6",
+            "version": "3.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/linnovate/openideal.git",
-                "reference": "da3be35d37a64714a1b4c35aa3d475918826d184"
+                "reference": "935a15cf075185790f12c3ad5f187ff6ef60e62b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/linnovate/openideal/zipball/da3be35d37a64714a1b4c35aa3d475918826d184",
-                "reference": "da3be35d37a64714a1b4c35aa3d475918826d184",
+                "url": "https://api.github.com/repos/linnovate/openideal/zipball/935a15cf075185790f12c3ad5f187ff6ef60e62b",
+                "reference": "935a15cf075185790f12c3ad5f187ff6ef60e62b",
                 "shasum": ""
             },
             "require": {
@@ -7346,6 +7465,7 @@
                 "drupal/twig_field_value": "^2.0",
                 "drupal/twig_tweak": "^2.5",
                 "drupal/ultimate_cron": "^2.0@alpha",
+                "drupal/update_helper": "^2.0",
                 "drupal/user_registrationpassword": "1.x-dev",
                 "drupal/userpoints": "^1.0@alpha",
                 "drupal/views_data_export": "^1.0",
@@ -7400,7 +7520,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "OpenideaL - open source ideas and innovation management system",
-            "time": "2021-02-22T06:26:43+00:00"
+            "time": "2021-02-25T14:22:46+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -11040,8 +11160,8 @@
         "drupal/multiple_fields_remove_button": 15,
         "drupal/rules": 20,
         "drupal/ultimate_cron": 15,
-        "drupal/userpoints": 15,
         "drupal/user_registrationpassword": 20,
+        "drupal/userpoints": 15,
         "drupal/votingapi": 20
     },
     "prefer-stable": true,

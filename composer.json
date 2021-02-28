@@ -10,6 +10,7 @@
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
+        "drupal/update_helper": "^2.0",
         "drush/drush": "^10",
         "linnovate/openideal": "^3.0",
         "platformsh/config-reader": "^2.3",
